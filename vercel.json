@@ -1,0 +1,13 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Permissions-Policy",
+          "value": "private-state-token-redemption=(), private-state-token-issuance=(), browsing-topics=(), interest-cohort=()"
+        }
+      ]
+    }
+  ]
+} 
